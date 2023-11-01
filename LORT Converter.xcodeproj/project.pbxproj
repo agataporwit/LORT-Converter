@@ -14,6 +14,8 @@
 		073711062A7C38AE00F92F28 /* LORT_ConverterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 073711052A7C38AE00F92F28 /* LORT_ConverterTests.swift */; };
 		073711102A7C38AE00F92F28 /* LORT_ConverterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0737110F2A7C38AE00F92F28 /* LORT_ConverterUITests.swift */; };
 		073711122A7C38AE00F92F28 /* LORT_ConverterUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 073711112A7C38AE00F92F28 /* LORT_ConverterUITestsLaunchTests.swift */; };
+		07CA10682A7C704D00A7E26F /* ExchangeInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07CA10672A7C704D00A7E26F /* ExchangeInfoView.swift */; };
+		07CA106A2A7C79C000A7E26F /* ExchangeRateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07CA10692A7C79C000A7E26F /* ExchangeRateView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		0737110B2A7C38AE00F92F28 /* LORT ConverterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LORT ConverterUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0737110F2A7C38AE00F92F28 /* LORT_ConverterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LORT_ConverterUITests.swift; sourceTree = "<group>"; };
 		073711112A7C38AE00F92F28 /* LORT_ConverterUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LORT_ConverterUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		07CA10672A7C704D00A7E26F /* ExchangeInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeInfoView.swift; sourceTree = "<group>"; };
+		07CA10692A7C79C000A7E26F /* ExchangeRateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeRateView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +98,8 @@
 		073710F32A7C38AC00F92F28 /* LORT Converter */ = {
 			isa = PBXGroup;
 			children = (
+				07CA10672A7C704D00A7E26F /* ExchangeInfoView.swift */,
+				07CA10692A7C79C000A7E26F /* ExchangeRateView.swift */,
 				073710F42A7C38AC00F92F28 /* LORT_ConverterApp.swift */,
 				073710F62A7C38AC00F92F28 /* ContentView.swift */,
 				073710F82A7C38AD00F92F28 /* Assets.xcassets */,
@@ -259,6 +265,8 @@
 			files = (
 				073710F72A7C38AC00F92F28 /* ContentView.swift in Sources */,
 				073710F52A7C38AC00F92F28 /* LORT_ConverterApp.swift in Sources */,
+				07CA10682A7C704D00A7E26F /* ExchangeInfoView.swift in Sources */,
+				07CA106A2A7C79C000A7E26F /* ExchangeRateView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

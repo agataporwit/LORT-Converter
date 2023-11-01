@@ -8,22 +8,27 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State var leftAmount = ""
+    @State var rightAmount = ""
+    //var gold = #colorLiteral(red: 0.6715931057, green: 0.5809049137, blue: 0.3560904292, alpha: 1)
     var body: some View {
         ZStack {
             //backgrounnd
             Image("background")
-                .resizable()  
+                .resizable()
+                .opacity(0.9)
                 .edgesIgnoringSafeArea(.all)
             VStack {
                 // pony image
                 Image("prancingpony")
                     .resizable()
                     .scaledToFit()
-                    .frame(height: 200)
+                    .frame(height: 300)
                 // currancy exch.
                 Text("CURRENCY EXCHANGE")
-                    .font(.largeTitle)
-                    .foregroundColor(.white)
+                    .font(.largeTitle).bold().italic()
+                    .foregroundColor(.gray)
+                   // .padding(.horizontal, 20)
                 
                 // conversion
                 HStack {
@@ -43,8 +48,14 @@ struct ContentView: View {
                                 .foregroundColor(.white)
                         }
                         //text filed
-                        Text("Text Field")
+                        TextField("Silver Amount", text: $leftAmount)
+                            .padding(7)
+                            .background(Color(UIColor.systemGray4))
+                            .cornerRadius(10)
+                        
+                        
                     }
+                    .padding(.horizontal, 15)
                     // equal sign
                     Image(systemName: "equal")
                         .font(.largeTitle)
@@ -66,10 +77,18 @@ struct ContentView: View {
                                 .frame(height: 60)
                         }
                         //text field
-                        Text("Text field")
+                        TextField("Gold Amount", text: $rightAmount)
+                            .padding(7)
+                            .background(Color(UIColor.systemGray4))
+                            .cornerRadius(10)
+                            .multilineTextAlignment(.trailing)
                     }
+                    .padding(.horizontal, 15)
                 }
-                
+                .padding()
+                .background(.black.opacity(0.5))
+                .cornerRadius(30)
+                .shadow(color: .yellow, radius: 60)
                 Spacer()
                 //info butotn
                 HStack {
@@ -83,6 +102,7 @@ struct ContentView: View {
                     .font(.largeTitle)
                 .foregroundColor(.yellow)
                 }
+                .padding(.trailing)
             }
         }
     }

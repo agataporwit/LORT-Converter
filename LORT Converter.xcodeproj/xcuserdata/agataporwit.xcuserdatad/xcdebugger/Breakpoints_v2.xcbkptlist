@@ -79,7 +79,117 @@
                   endingLineNumber = "13"
                   offsetFromSymbolStart = "140">
                </Location>
+               <Location
+                  uuid = "01DDFB22-51BF-42E1-A8A8-BF0DE7CAD745 - dfb2d63e0ee6bdbe"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LORT_Converter.ExchangeInfoView.body.getter : some"
+                  moduleName = "LORT Converter"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/agataporwit/Desktop/iOSapps/LORT%20Converter/LORT%20Converter/ExchangeInfoView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "180">
+               </Location>
+               <Location
+                  uuid = "01DDFB22-51BF-42E1-A8A8-BF0DE7CAD745 - d90268c6121ee38e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of SwiftUI.View.padding(CoreGraphics.CGFloat) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of SwiftUI.View.foregroundColor(Swift.Optional&lt;SwiftUI.Color&gt;) -&gt; some&gt;&gt;.0)&gt; in LORT_Converter.ExchangeInfoView.body.getter : some"
+                  moduleName = "LORT Converter"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/agataporwit/Desktop/iOSapps/LORT%20Converter/LORT%20Converter/ExchangeInfoView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "316">
+               </Location>
             </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1AF08F01-35A9-453B-ACA3-5E1EFAB53AAE"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LORT Converter/CurrencyModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "11"
+            endingLineNumber = "11"
+            landmarkName = "Currency"
+            landmarkType = "13">
+            <Locations>
+               <Location
+                  uuid = "1AF08F01-35A9-453B-ACA3-5E1EFAB53AAE - 19827e8dc1026512"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LORT_Converter.Currency.rawValue.getter : Swift.Double"
+                  moduleName = "LORT Converter"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/agataporwit/Desktop/iOSapps/LORT%20Converter/LORT%20Converter/CurrencyModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "68">
+               </Location>
+               <Location
+                  uuid = "1AF08F01-35A9-453B-ACA3-5E1EFAB53AAE - 19827e8dc1026512"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LORT_Converter.Currency.rawValue.getter : Swift.Double"
+                  moduleName = "LORT Converter"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/agataporwit/Desktop/iOSapps/LORT%20Converter/LORT%20Converter/CurrencyModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "96">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "19F08CA1-6B0A-4B5F-A4BF-451C08DBD7DB"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LORT Converter/CurrencyModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "8"
+            endingLineNumber = "8"
+            landmarkName = "Currency"
+            landmarkType = "13">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E57BFBA6-B1C7-4491-BAD5-C65C268A985B"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LORT Converter/CurrencyModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "7"
+            endingLineNumber = "7"
+            landmarkName = "unknown"
+            landmarkType = "0">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

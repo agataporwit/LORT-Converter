@@ -9,35 +9,31 @@ import SwiftUI
 
 struct SelectCurrency: View {
     @Environment(\.dismiss) var dismiss
+    @Binding var leftCurrency: Currency
+    @Binding var rightCurrency: Currency
+    
+    
+    
     var body: some View {
         ZStack {
             Image("parchment")
                 .resizable()
                 .edgesIgnoringSafeArea(.all)
                 .background(.black)
-                //.padding(2)
+            //.padding(2)
             VStack {
                 Text("Select currency")
                     .fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
                     .multilineTextAlignment(.center)
                 //icons
-                CurrencyIcon(currencyImage: "copperpenny", currencyText: "Copper Penny")
-                
-                CurrencyIcon(currencyImage: "silverpenny", currencyText: "Silver Penny")
-                
-                CurrencyIcon(currencyImage: "silverpiece", currencyText: "Silver Piece")
-
-                CurrencyIcon(currencyImage: "goldpenny", currencyText: "Gold Penny")
-                
-                CurrencyIcon(currencyImage: "goldpiece", currencyText: "Gold Piece")
-                
+                IconGrid(currency: $leftCurrency)
                 
                 Text ("Select the currency you would like to convert to: ")
                     .fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
                     .multilineTextAlignment(.center)
-                    
                 
-                //icons
+                IconGrid(currency: $rightCurrency)
+                
                 
                 Button("DONE") {
                     dismiss()
@@ -54,6 +50,6 @@ struct SelectCurrency: View {
 
 struct SelectCurrency_Preview: PreviewProvider {
     static var previews: some View {
-        SelectCurrency()
+        SelectCurrency(leftCurrency: .constant(.silverPiece), rightCurrency: .constant(.goldPiece))
     }
 }

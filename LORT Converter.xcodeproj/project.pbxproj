@@ -16,6 +16,8 @@
 		073711122A7C38AE00F92F28 /* LORT_ConverterUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 073711112A7C38AE00F92F28 /* LORT_ConverterUITestsLaunchTests.swift */; };
 		07621B042AFD973200F7B375 /* SelectCurrency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07621B032AFD973200F7B375 /* SelectCurrency.swift */; };
 		07621B062AFD9D9400F7B375 /* CurrencyIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07621B052AFD9D9400F7B375 /* CurrencyIcon.swift */; };
+		07621B082AFDAA8600F7B375 /* CurrencyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07621B072AFDAA8600F7B375 /* CurrencyModel.swift */; };
+		07621B0A2AFDB56600F7B375 /* IconGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07621B092AFDB56600F7B375 /* IconGrid.swift */; };
 		07CA10682A7C704D00A7E26F /* ExchangeInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07CA10672A7C704D00A7E26F /* ExchangeInfoView.swift */; };
 		07CA106A2A7C79C000A7E26F /* ExchangeRateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07CA10692A7C79C000A7E26F /* ExchangeRateView.swift */; };
 /* End PBXBuildFile section */
@@ -50,6 +52,8 @@
 		073711112A7C38AE00F92F28 /* LORT_ConverterUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LORT_ConverterUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		07621B032AFD973200F7B375 /* SelectCurrency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectCurrency.swift; sourceTree = "<group>"; };
 		07621B052AFD9D9400F7B375 /* CurrencyIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyIcon.swift; sourceTree = "<group>"; };
+		07621B072AFDAA8600F7B375 /* CurrencyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyModel.swift; sourceTree = "<group>"; };
+		07621B092AFDB56600F7B375 /* IconGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconGrid.swift; sourceTree = "<group>"; };
 		07CA10672A7C704D00A7E26F /* ExchangeInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeInfoView.swift; sourceTree = "<group>"; };
 		07CA10692A7C79C000A7E26F /* ExchangeRateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeRateView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -103,6 +107,8 @@
 			isa = PBXGroup;
 			children = (
 				07621B032AFD973200F7B375 /* SelectCurrency.swift */,
+				07621B092AFDB56600F7B375 /* IconGrid.swift */,
+				07621B072AFDAA8600F7B375 /* CurrencyModel.swift */,
 				07621B052AFD9D9400F7B375 /* CurrencyIcon.swift */,
 				07CA10672A7C704D00A7E26F /* ExchangeInfoView.swift */,
 				07CA10692A7C79C000A7E26F /* ExchangeRateView.swift */,
@@ -269,6 +275,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07621B0A2AFDB56600F7B375 /* IconGrid.swift in Sources */,
+				07621B082AFDAA8600F7B375 /* CurrencyModel.swift in Sources */,
 				073710F72A7C38AC00F92F28 /* ContentView.swift in Sources */,
 				07621B042AFD973200F7B375 /* SelectCurrency.swift in Sources */,
 				073710F52A7C38AC00F92F28 /* LORT_ConverterApp.swift in Sources */,
